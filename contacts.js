@@ -1,18 +1,42 @@
-const contactsPath = null;
+const fs = require('fs/promises');
 
-// TODO: задокументувати кожну функцію
-function listContacts() {
-  // ...твій код
+// const contactsPath = async (filePath, action = 'read', data = '') =>
+// {
+//   switch (action) {
+//     case 'read':
+//       const contact = await fs.readFile(filePath, 'utf-8')
+//       console.log(contact);
+//       break;
+//     case 'add':
+//       const result = await fs.appendFile(filePath, data)
+//       console.log(result);
+//       break;
+//     default:
+//       break;
+//   }
+// }
+
+const contactsPath = require('./db/contacts')
+
+const listContacts = async() => {
+  await fs.readFile('.db/')
 }
 
-function getContactById(contactId) {
-  // ...твій код
+const getContactById(contactId) {
+
 }
 
-function removeContact(contactId) {
-  // ...твій код
+const removeContact(contactId) {
+
 }
 
-function addContact(name, email, phone) {
-  // ...твій код
+const addContact(name, email, phone) {
+
+}
+
+module.exports = {
+  listContacts,
+  getContactById,
+  removeContact,
+  addContact
 }
