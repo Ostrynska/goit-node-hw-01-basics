@@ -1,5 +1,5 @@
 {
-  "name": "goit-node-hw-01-basics",
+  "name": "goit-node-hw-01-cli-application",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ostrynska/goit-node-hw-01-basics.git"
+    "url": "git+https://github.com/Ostrynska/goit-node-hw-01-cli-application.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ostrynska/goit-node-hw-01-basics/issues"
+    "url": "https://github.com/Ostrynska/goit-node-hw-01-cli-application/issues"
   },
-  "homepage": "https://github.com/Ostrynska/goit-node-hw-01-basics#readme",
+  "homepage": "https://github.com/Ostrynska/goit-node-hw-01-cli-application#readme",
   "devDependencies": {
     "nodemon": "^2.0.20"
   },
