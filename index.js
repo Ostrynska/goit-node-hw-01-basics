@@ -29,7 +29,7 @@ const invokeAction =  async ({ action, id, name, email, phone }) =>
             console.table(newContact);
             break;
         case "remove":
-            const removeContact = await contacts.removeContact(id, { name, email, phone })
+            const removeContact = await contacts.removeContact(id)
             console.table(removeContact);
             break;
         default:
